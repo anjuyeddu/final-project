@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(49, 22, 49);
+    font-family:'Goblin One', cursive;
+}
+.logo{
+    color: rgb(207, 207, 207);
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:rgb(207, 207, 207);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+.box{
+    .background-image{
+        background-image: url('./img/circuit_board.jpg');
+        background-size: cover;
+        background-repeat: no repeat;
+        height:100vh;
+    
+}
+
+
+.box-img{
+    width: 150px;
+    height: 150px;
+
+
+}
+.box{
+    position: relative;
+    background-color: rgb(90, 106, 141);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 32%;
+    margin-top: 60px;
+
+}
